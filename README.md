@@ -22,7 +22,7 @@ To run the whole program, simply run /com/networkBuild/Runnet.java, and follow t
   	For example, first run java -jar ./WSN_Detection.jar, and there will be several input that needed to be completed to run the code. These basic parameters are: number of nodes, source node, destination node, attack or not, which kind of attack method to choose, and the round the attacker want to set the attack. After setting all these parameters, the code will come to network transmission part, and start running.
 
 ### Example:
-<addr> $ java -jar WSN_Detection.jar </addr>
+`$ java -jar WSN_Detection.jar`  
 
 --------------------PARAMETER SETTIN--------------------   
 Please input the number of nodes : 10
