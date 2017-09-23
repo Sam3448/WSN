@@ -17,12 +17,14 @@ To run the whole program, simply run /com/networkBuild/Runnet.java, and follow t
   	* Attack is the class for attacking strategy. This part contains three kinds of attacks, 1: physical damage, 2: jamming, 3: man-in-the-middle. 
 
 3. To run the code
-  	As Runnet is the main function, user can run this code by either using IDE or using instructions. To run WSN_Detection.jar, user can use instruction: java -jar PATH/WSN_Detection.jar source destination attack. For example, first run java -jar ./WSN_Detection.jar, and there will be several input that needed to be completed to run the code. These basic parameters are: number of nodes, source node, destination node, attack or not, which kind of attack method to choose, and the round the attacker want to set the attack. After setting all these parameters, the code will come to network transmission part, and start running.
+  	As Runnet is the main function, user can run this code by either using IDE or using instructions. To run WSN_Detection.jar, user can use instruction: java -jar PATH/WSN_Detection.jar source destination attack.   
+
+  	For example, first run java -jar ./WSN_Detection.jar, and there will be several input that needed to be completed to run the code. These basic parameters are: number of nodes, source node, destination node, attack or not, which kind of attack method to choose, and the round the attacker want to set the attack. After setting all these parameters, the code will come to network transmission part, and start running.
 
 ### Example:
-`<addr>` $ java -jar WSN_Detection.jar 
+<addr> $ java -jar WSN_Detection.jar </addr>
 
---------------------PARAMETER SETTIN--------------------
+--------------------PARAMETER SETTIN--------------------   
 Please input the number of nodes : 10
 Please input the source node (1-10) : 2
 
@@ -32,16 +34,16 @@ Please input whether to attack (true/false) : true
 
 If attack, please input attack method(1-4)
 
-1. Physical Damage
-2. Jamming
-3. Man-in-the-middle
-4. Semi-damaged
-Please select the attack method : 3
-DEPLOY : AttackMethod 3  => Man In The Middle
+1: Physical Damage  
+2: Jamming  
+3: Man-in-the-middle  
+4: Semi-damaged  
+Please select the attack method : 3  
+DEPLOY : AttackMethod 3  => Man In The Middle  
 
-Please input the round to attack (start from 1): 2 
+Please input the round to attack (start from 1): 2   
 
---------------------TRANSMISSION START--------------------
+--------------------TRANSMISSION START--------------------  
 Hop times(Number of routers) : 2  
 
 Source to Destination :   2 3 8 4   
